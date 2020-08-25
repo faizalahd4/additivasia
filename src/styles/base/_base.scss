@@ -1,0 +1,19 @@
+/**
+*
+* _base.scss
+*
+* @author - Faizal
+* @date   - 25 August 2020
+***/
+html, body {
+  height: 100%;
+  margin: 0;
+  color: #2d3436;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+	padding-right: 0 !important;
+}
+.App {
+	margin-top: 10%
+}

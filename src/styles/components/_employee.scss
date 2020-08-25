@@ -1,0 +1,62 @@
+/**
+*
+* _employee.scss
+*
+* @author - Faizal
+* @date   - 25 August 2020
+***/
+#employee-explorer {
+	text-align: center;
+	h1 {
+		font-size: 40px;
+	    letter-spacing: 1px;
+	    text-transform: capitalize;
+	    margin-bottom: 20px;
+	}
+	.employee-search-container {
+		width: 300px
+	}
+	.employee-search-btn-container {
+		width: 90px;
+		margin-left: 10px;
+	}
+}
+
+
+#employee-overview {
+	text-align: center;
+	h1 {
+		font-size: 40px;
+	    letter-spacing: 1px;
+	    text-transform: capitalize;
+	    margin-bottom: 20px;
+	}
+	h3 {
+		font-size: 20px;
+	    font-weight: 400;
+	    color: #2d3436;
+	}
+	.overview-list {
+		margin-top: 30px;
+		max-width: 500px;
+		text-align: left;
+		display: inline-block;
+		ul {
+			list-style: none;
+			margin: 0;
+    		padding: 0;
+    		li {
+    			margin-left: 15px
+    		}
+		}
+		.list-item-name {
+			padding-bottom: 6px;
+			&:hover {
+				color: #636e72;
+				cursor: pointer;
+			}
+
+			
+		}
+	}
+}
